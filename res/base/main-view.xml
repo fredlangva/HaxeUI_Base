@@ -1,0 +1,7 @@
+<box width="100%" height="75%" >
+    <style source="main.css" />
+    <vbox id="splash" width="800px" height="800px" style="background-color: red;" >
+        <button text="Click Me!" onclick="this.text='Thanks!'"  	/>
+        <label text="Hello there" />
+    </vbox>     
+</box>

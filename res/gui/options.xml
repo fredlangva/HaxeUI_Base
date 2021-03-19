@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<box width="100%" height="100%" >
+    <vbox id="opts_box" width="80%" height="80%" horizontalAlign="center"
+         verticalAlign="center" style="background-color: grey; border: 2px solid red; opacity: 1;" >
+        <grid id="vol_box" columns="2" horizontalAlign="center" verticalAlign="center" >
+            <label text="Master Volume" />
+            <slider id="mas_vol" end="100" pos="50" />
+            <label text="Music Volume" />
+            <slider id="mus_vol" end="100" pos="50" />
+            <label text="SFX Volume" />
+            <slider id="sfx_vol" end="100" pos="50" />
+        </grid>
+        <vbox id="res_box" horizontalAlign="center" >
+            <label text="Screen Resolution" horizontalAlign="center" />
+            <grid id="res_sel" columns="4" horizontalAlign="center"  >
+                <optionbox text="res1" group="resGroup" />
+                <optionbox text="res2" group="resGroup" />
+                <optionbox text="res3" group="resGroup" />
+                <optionbox text="res4" group="resGroup" />
+                <optionbox text="res5" group="resGroup" />
+                <optionbox text="res6" group="resGroup" />
+                <optionbox text="res7" group="resGroup" />
+                <optionbox text="res8" group="resGroup" selected="true" />
+            </grid>
+        </vbox>
+        <hbox id="save_box" width="80%" horizontalAlign="center" >
+            <label text="Save Directory: " />
+            <textfield id="save_dir" width="100%" placeholder="Save Directory Location" />
+        </hbox>
+        <grid id="but_box" columns="2" width="200" horizontalAlign="center">
+            <button id="ok" text="OK"  horizontalAlign="center" />
+            <button id="cancel" text="Cancel"  horizontalAlign="center" />
+        </grid>
+    </vbox>
+</box>

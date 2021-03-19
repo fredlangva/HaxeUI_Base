@@ -1,0 +1,18 @@
+<vbox id="splash" width="100%" height="100%"  >
+	<box width="100%" height="50%" >
+		<image resource="images/flw_corp.png" horizontalAlign="center" verticalAlign="bottom" style="padding-bottom: 150px;" />
+	</box>
+	<grid columns="2" width="100%" height="20%"  >
+		<box width="100%" horizontalAlign="left"  >
+			<image id="haxelogo" resource="images/haxe_logo.png" width="400px" height="110px" 
+				horizontalAlign="center" />
+		</box>
+		<box width="100%" horizontalAlign="right" >
+			<image id="haxeui" resource="images/haxeui.png" width="450px" height="110px" 
+				horizontalAlign="cneter" />
+		</box>
+	</grid>
+	<box width="100%" height="30%" >
+		<image id="heaps" resource="images/heaps_logo.png" horizontalAlign="center" verticalAlign="top"  />
+	</box>
+</vbox>

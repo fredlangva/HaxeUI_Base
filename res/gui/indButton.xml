@@ -1,0 +1,4 @@
+<hbox style="horizontal-spacing: 0;">
+    <button id="${id}" icon="${icon}" styleName="ui" />
+    <image id="indicator" resource="images/icons/gc/arrow.png" height="32" width="5" />
+</hbox>

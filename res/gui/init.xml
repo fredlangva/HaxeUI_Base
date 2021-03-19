@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<box width="20%" height="100%" style="background-color: red;" >
+    <vbox width="100%" height="240" verticalAlign="bottom" style="background-color:blue; border:2px solid green; " >
+        <label text="test1" />
+        <button text="Hello" />
+    </vbox>
+</box>

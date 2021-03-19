@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module id="myTheme">
+	<resources>
+		<resource path="res/gui/myTheme/styles"  prefix="styles" />
+		<resource path="res/gui/myTheme/images"  prefix="images" />
+		<resource path="res/gui/myTheme/fonts"  prefix="fonts" />
+		<resource path="res/gui/myTheme/sounds" prefix="sounds" />
+	</resources>
+	<themes>
+		<myTheme parent="default">
+			<style resource="styles/main.css"  />
+			<style resource="styles/buttons.css" />
+			<style resource="styles/dialog.css" />
+		</myTheme> 
+	</themes>
+	<components>
+		<component class="gui.Hud" />
+		<component class="gui.StartMenu" />
+		<component class="gui.NewScreen" />
+		<component class="gui.LoadScreen" />
+		<component class="gui.OptionsScreen" />
+		<component class="gui.GcLotButton" />
+		<component class="gui.GcFunButton" />
+	</components>
+</module>

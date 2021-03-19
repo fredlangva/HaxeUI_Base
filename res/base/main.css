@@ -1,0 +1,95 @@
+/*************************************************
+** Main styles
+*************************************************/
+.component {
+
+}
+
+.custom-component {
+	width: auto;
+	height: auto;
+}
+
+
+
+.default-background {
+	background-color: #61da10;
+}
+
+/*************************************************
+** Container Styles
+*************************************************/
+.box .hbox .vbox {
+	width: auto;
+	height: auto;
+	padding: 5px 5px;
+	background-color: #61da10;
+}
+
+/*************************************************
+** Label Styles
+*************************************************/
+.label {
+	width: auto;
+	height: auto;
+	font-size: 48px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-name: "fonts/Avdira.ttf";
+	color: white;
+/*	text-align: center; */
+}
+
+/*************************************************
+** Image Styles
+*************************************************/
+.image {
+	width: auto;
+	height: auto;
+}
+
+/*************************************************
+** Specific 
+*************************************************/
+
+
+#buttonBox {
+/*	background-color: green;*/
+	background-image: "images/parchment.png";
+	background-image-repeat: stretch;
+	background-color: #61da10;	
+}
+
+#splash {
+	background-image: "../myTheme/images/hong_kong.jpg";
+	background-image-repeat: stretch;
+	background-color: #61da10;
+}
+
+#haxelogo {
+	opacity: 0;
+}
+
+#haxeui {
+	opacity: 0;
+}
+
+/*************************************************
+** Animations
+*************************************************/
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation: fade 5s ease 0s 1;
+}
+
+.fadeOut {
+    animation: fade 2s ease 0s 1 reverse backwards;
+}
+

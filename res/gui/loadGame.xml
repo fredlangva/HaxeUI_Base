@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<box width="100%" height="100%" horizontalAlign="center" >
+    <vbox id="load_box" width="80%" height="80%" horizontalAlign="center"
+         verticalAlign="center" style="background-color: grey; border: 2px solid red; opacity: 1;" >
+        <label text="Load Game" style="color: white;" />
+
+        <listview id="lv1" width="60%" height="150" horizontalAlign="center"
+            selectedIndex="0" >
+            <item-renderer layoutName="horizontal" width="100%" >
+                <image id="image" width="16" height="16" />
+                <label id="item" width="100%" />
+            </item-renderer>
+            <data>
+                <item image="images/icons/gc/folder.png" item=".."  />
+            </data>
+        </listview>
+
+        <button id="cont" text="Continue" />
+    </vbox>
+</box>

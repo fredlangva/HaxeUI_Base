@@ -1,0 +1,28 @@
+/*************************************************
+** Dialog Styles
+*************************************************/
+
+.dialog-title-label {
+	color: black;
+	font-size: 14px;
+}
+
+.dialog-content .label {
+	color: black;
+	font-size: 20px;
+}
+
+.dialog .button {
+	background-image: none;
+	background: none;
+	padding: 10px;
+}
+
+.dialog .button .label {
+	color: black;
+	font-size: 20px;
+}
+
+.dialog-close-button {
+	horizontal-align: right;
+}

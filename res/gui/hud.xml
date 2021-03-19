@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<vbox width="100%" height="100%" style="background-color: #ffffea; ">
+    <hbox id="hudStatus" height="28" width="100%" >
+        <label id="gameTime" text="timedate" />
+        <label id="funds" text="$$$$$$$$$$$$" />
+        <label text="other stuff" />
+    </hbox>
+    <grid columns="2" >
+        <vbox style="horizontal-spacing: 0;" > 
+            <gclotbutton id="gc_lot" />
+            <gcfunbutton id="gc_fun" />
+            <button id="gc_money" icon="images/icons/gc/gc_money.png"  styleName="ui" />
+            <button id="gc_opts" icon="images/icons/gc/gc_options.png"  styleName="ui" />
+        </vbox>
+        <vbox >
+            <vbox id="lotSize" style="horizontal-spacing:0; " >
+                <button id="gc_tent" icon="images/icons/gc/gc_tent.png" styleName="ui" />
+                <button id="gc_camper" icon="images/icons/gc/gc_camper.png" styleName="ui" />
+                <button id="gc_rv" icon="images/icons/gc/gc_rv.png" styleName="ui" />
+            </vbox>
+            <vbox id="funStuff" style="horizontal-spacing:0; " >
+                <button id="gc_restroom" icon="images/icons/gc/gc_restroom.png" styleName="ui" />
+                <button id="gc_shower" icon="images/icons/gc/gc_shower.png" styleName="ui" />
+                <button id="gc_swings" icon="images/icons/gc/gc_swings.png" styleName="ui" />
+                <button id="gc_swim" icon="images/icons/gc/gc_swim.png" styleName="ui" />
+            </vbox>
+        </vbox>
+    </grid>
+</vbox>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<box id="start" height="100%" width="100%"  >
+	<box height="100%" width="10%" />
+	<box id="buttonBox" height="100%"  width="80%" horizontalAlign="center"  >
+		<vbox height="100%" width="100%" style="spacing: 20px; margin-top: 50px; " >
+			<button  id="newgame" text="New Game"  horizontalAlign="center" styleName="menu" />
+			<button  id="loadgame" text="Load Game"  horizontalAlign="center" styleName="menu"  />
+			<button  id="options" text="Options"  horizontalAlign="center" styleName="menu" />
+			<button  id="exit" text="Exit"  horizontalAlign="center" styleName="menu" />
+		</vbox>
+	</box>
+	<box height="100%" width="10%" />
+</box>
