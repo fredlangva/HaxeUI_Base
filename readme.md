@@ -20,4 +20,4 @@ The HUD screen has some additional custom components for indicators used on the 
 
 ## Acknowledgement
 
-I can not express enough thanks to Ian Harrington for being patient with me trying to learn HaxeUI. I hope that whatever project you use his library in, you would give him credit for such a great resource to provide the building blocks to our UIs.
+I can not express enough thanks to Ian Harrigan for being patient with me trying to learn HaxeUI. I hope that whatever project you use his library in, you would give him credit for such a great resource to provide the building blocks to our UIs.
